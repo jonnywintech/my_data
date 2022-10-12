@@ -130,6 +130,6 @@ public function store(Request request)
 
 podaci se salju na [[view]] 
 
-
+[[napredno routovanje  iz  view-a]]
 
 [[1. Laravel List|Back]]

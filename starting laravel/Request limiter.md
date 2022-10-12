@@ -3,8 +3,18 @@ https://laravel.com/docs/8.x/routing#rate-limiting
 
 kratki primeri
 
-```blade
+```php
+protected function configureRateLimiting()
 
+{
+
+RateLimiter::for('global', function (Request $request) {
+
+return Limit::perMinute(1000);
+
+});
+
+}
 ```
 
 

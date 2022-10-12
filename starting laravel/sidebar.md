@@ -42,7 +42,7 @@ u `config/app.php` tu se dodaje provider
         App\Providers\ViewServiceProvider::class,
 ```
 
-pravi se patial i veze se na zeljeni blade fajl na kome se unosi
+pravi se partial i veze se na zeljeni blade fajl na kome se unosi
 
 
 [[1. Laravel List|Nazad]]

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "7. Github.md",
-            "mode": "preview",
+            "file": "1. Laravel List.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7. Github.md",
+                "file": "1. Laravel List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "71c9858993553f4c",
   "lastOpenFiles": [
-    "6. Sass.md",
-    "5.JavaScript.md",
-    "4. Sql.md",
-    "3. Boostrap komponente.md",
-    "2. React.md",
+    "Laravel Advanced/collect().md",
+    "1.1 Laravel Advanced.md",
     "1. Laravel List.md",
-    "docker/grupisanje i izvrsavanje vise kontainera odjednom.md",
-    "8. Docker.md",
-    "docker/build imaga.md",
-    "docker/Pravljenje fajla.md"
+    "starting laravel/sidebar.md",
+    "starting laravel/blade templates.md",
+    "starting laravel/Styling.md",
+    "starting laravel/napredno routovanje  iz  view-a.md",
+    "starting laravel/Controller.md",
+    "starting laravel/view.md",
+    "starting laravel/Factory - Seeder.md"
   ]
 }

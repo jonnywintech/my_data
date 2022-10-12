@@ -2,6 +2,48 @@
 
 #### nalazi se u ruti /resurces/view
 imamo vise vrsta komandi i redosled je sledeci  (model kako bi trebao da sadrzi blade fajl)
+## 1. Layout Koji je skeleton i sadrzi Html
+## 2. Content deo koji sadrzi samo sadrzaj na stranici ili deo koji se prikljucuje na `yeild`
+`primer Layouta`
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>@yield('title')</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="css/app.css">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        li{
+            list-style: none;
+        }
+    </style>
+  </head>
+  <body>
+      @include('partials.navbar')
+   <div class="main">
+    @if(session('status_message'))
+    <div class="alert alert-info">{{session('status_message')}}</div>
+    <br />
+    @endif
+   @yield('content')
+   @include('partials.footer')
+   </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
+
+#### Base prikaz Content dela
 ```php
 @yield('title')
 @include('partials.navbar')
@@ -26,17 +68,17 @@ to su obicni html fajlovi koji se dodaju
 #### /resurces/view/layout
 glavni fajl koji se koristi kao template koji povezuje sve ostale delove
 
-### @yield je deo koji je promenljiv i prikljucuje se sa nove stranice koja se napravi
+### `@yield` je deo koji je promenljiv i prikljucuje se sa nove stranice koja se napravi
 ```php
 @yield('title')
 ```
 
-### @include je deo koji je statican i prikljucen je uvek staticno
+### `@include` je deo koji je statican i prikljucen je uglavnom je statican (navbar na primer)
 ```php
 @include ('partials.navbar')
 ```
 ## Primeri 
-### Primer glavnog fajla na ruti /resources/view
+### Primer  `Content`  iliti `sadrzaj` fajla na ruti /resources/view koji je dinamican
 
 ```php
 @extends('layout.home')
