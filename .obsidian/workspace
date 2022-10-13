@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1. Laravel List.md",
+            "file": "starting laravel/Factory - Seeder.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "starting laravel/Factory - Seeder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "71c9858993553f4c",
   "lastOpenFiles": [
-    "Laravel Advanced/collect().md",
-    "1.1 Laravel Advanced.md",
     "1. Laravel List.md",
-    "starting laravel/sidebar.md",
+    "2. React.md",
+    "starting laravel/Factory - Seeder.md",
+    "1.1 Laravel Advanced.md",
+    "8. Docker.md",
+    "docker/docker-network.md",
+    "starting laravel/relacije izmedju tabela.md",
+    "starting laravel/view_slug.md",
     "starting laravel/blade templates.md",
-    "starting laravel/Styling.md",
-    "starting laravel/napredno routovanje  iz  view-a.md",
-    "starting laravel/Controller.md",
-    "starting laravel/view.md",
-    "starting laravel/Factory - Seeder.md"
+    "starting laravel/view.md"
   ]
 }
