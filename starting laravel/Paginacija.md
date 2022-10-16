@@ -37,5 +37,17 @@ eager loading
 $news = News::with('user')->orderBy('created_at', 'desc')->paginate(5); //eager loading
 ```
 
+### Postoji nacin da se zadrzi querry sa paginaciojom a to je `withQueryStrings()`
+primer
+```php
+public function index()
+{
+	return view ('post.index',[
+	   'posts' => Post::latest()->filter(
+		request(['search', 'category', 'author'])
+		)->paginate(6)->withQueryStrings()
+		]);
+}
+```
 
 [[1. Laravel List|Nazad]]

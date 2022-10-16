@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "a9c398b2a72db042",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1888a791807ad77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b7e45ff979d57d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d81acd9e178c5216",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd3025f0c645d51b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "667e2687f710483c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3e9f617ced1e9ffe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "emme",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "420cbaaabf4ba8e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "340a0f4e2cb5d22c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b67b5e92cb169410",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "7b7e45ff979d57d4",
+  "lastOpenFiles": [
+    "[1. Laravel List.md",
+    "starting laravel/Error.md",
+    "1. Laravel List.md",
+    "starting laravel/Filtriranje.md",
+    "starting laravel/AuthController.md",
+    "starting laravel/RegisterRequest.md",
+    "starting laravel/Model.md",
+    "starting laravel/Controller.md",
+    "starting laravel/Komponente.md",
+    "starting laravel/Model-Controller-factory-seed.md"
+  ]
+}

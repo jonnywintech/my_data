@@ -93,6 +93,25 @@ public function store(Request request)
     }
 ```
 
+### Validacija podataka  u store metodi
+```php
+public function store()
+{
+ $atributes = request()->validate([
+	 'name' => 'required|max:255',
+	 'username' => 'required|max:255|min:4',
+	 'email' => 'required|max:255',
+	 'password' => 'required|min:7|max:255',
+ ]);
+// hashovanje password-a
+$attributes['password'] = bcrypt($attributes['password']);
+// ako se ne koristi u modelu mutator funkcija za password
+User::create($attributes);
+
+return redirect('/');
+}
+```
+### Mutator funkcija za password u [[Model|modelu]]
 
 ### Redirekcija  
 ```php

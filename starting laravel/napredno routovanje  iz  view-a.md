@@ -18,4 +18,9 @@ Route::get('some/route{whatever?}', function(){ // do your stuff here
 })->where('whatever', '.+');
 ```
 
+postoji takodje i imenovana ruta koja moze povaciti podatke od specificne variable iz kontrolera
+```php
+Route::get('some/route{whatever:ime_variable}', function(){ // do your stuff here })->where('whatever', '.+');
+```
+
 [[1. Laravel List|Nazad]]
