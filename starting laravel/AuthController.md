@@ -41,7 +41,8 @@ public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect('/');
+	        session()->regenerate();
+            return redirect('/')->with('success', 'Welcome back!');
         } else {
             view('login', ['invalidCredentials' => true]);
         }

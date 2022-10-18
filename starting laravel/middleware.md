@@ -45,7 +45,28 @@ app/Providers/RouteServiceProvider.php
 
 Laravel primer
 
-### [Global Middleware](https://laravel.com/docs/8.x/middleware#global-middleware)
+### u blejd templejtu se moze prikazati na primer register samo ako je korisnik guest
+```php
+@guest
+
+<a href="/register"> Register </a>
+
+@endguest
+```
+a ako je korisnik ulogovan 
+```php
+@auth
+<a href="/register">Welcome {{ auth->user()->name }}</a>
+@endauth
+```
+logout
+```php
+<form method='POST' action='/logout'>
+@crsf
+<button type='submit'> Logout </button>
+</form>
+```
+### [Global Mihttps://laravel.com/docs/8.x/middleware#global-middlewareddleware](https://laravel.com/docs/8.x/middleware#global-middleware)
 
 If you want a middleware to run during every HTTP request to your application, list the middleware class in the `$middleware` property of your `app/Http/Kernel.php` class.
 

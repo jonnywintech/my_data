@@ -11,8 +11,12 @@
             "id": "7b7e45ff979d57d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. Laravel List.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Laravel List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,15 +100,15 @@
   },
   "active": "7b7e45ff979d57d4",
   "lastOpenFiles": [
-    "[1. Laravel List.md",
-    "starting laravel/Error.md",
-    "1. Laravel List.md",
-    "starting laravel/Filtriranje.md",
-    "starting laravel/AuthController.md",
     "starting laravel/RegisterRequest.md",
-    "starting laravel/Model.md",
+    "starting laravel/AuthController.md",
+    "1. Laravel List.md",
     "starting laravel/Controller.md",
-    "starting laravel/Komponente.md",
-    "starting laravel/Model-Controller-factory-seed.md"
+    "starting laravel/Controller with auth.md",
+    "starting laravel/Model.md",
+    "starting laravel/Forme.md",
+    "starting laravel/Error u formi.md",
+    "starting laravel/Email.md",
+    "starting laravel/Filtriranje.md"
   ]
 }
