@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "docker/Pravljenje fajla.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "docker/Pravljenje fajla.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,20 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "7b7e45ff979d57d4",
   "lastOpenFiles": [
+    "8. Docker.md",
+    "docker/optimizacija fajla.md",
+    "docker/Pravljenje fajla.md",
+    "docker/docker-network.md",
+    "docker/build imaga.md",
+    "1. Laravel List.md",
     "starting laravel/RegisterRequest.md",
     "starting laravel/AuthController.md",
-    "1. Laravel List.md",
     "starting laravel/Controller.md",
-    "starting laravel/Controller with auth.md",
-    "starting laravel/Model.md",
-    "starting laravel/Forme.md",
-    "starting laravel/Error u formi.md",
-    "starting laravel/Email.md",
-    "starting laravel/Filtriranje.md"
+    "starting laravel/Controller with auth.md"
   ]
 }
