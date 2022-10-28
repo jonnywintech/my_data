@@ -23,7 +23,7 @@ ili ime konteinera
 ```bash
 docker exec -it  kubernetic /bin/bash #container id
 ```
-ukoliko neradi koristiti  /bin/sh
+ukoliko neradi koristiti  /bin/sh ili samo `sh`  na kraju
 ```bash
 docker exec -it  9080931sdfsd /bin/bash 
 ```

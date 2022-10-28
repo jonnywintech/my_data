@@ -29,6 +29,10 @@ istanje svih image-a
 ```bash
 docker image list # za izlistavanje
 ```
+listanje samo id-a kada se brisu svi kontaineri
+```bash
+docker image ls -q
+```
 
 brisanje imaga
 ```bash

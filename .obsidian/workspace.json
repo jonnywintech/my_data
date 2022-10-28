@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "8. Docker.md",
+                "file": "docker/sharovanje.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "emme",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8. Docker.md",
+                "file": "docker/sharovanje.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "49a0722c8d63b79a",
+  "active": "667e2687f710483c",
   "lastOpenFiles": [
-    "sharovanje.md",
-    "8. Docker.md",
-    "[8. Docker.md",
-    "docker/Pokretanje kontainera.md",
-    "docker/build imaga.md",
-    "docker/grupisanje i izvrsavanje vise kontainera odjednom.md",
-    "docker/Pravljenje fajla.md",
+    "docker/development.md",
+    "docker/docker-compose.md",
     "docker/Cleanup imag-a i konteinera.md",
-    "Cleanup imaga.md",
-    "1. Laravel List.md"
+    "8. Docker.md",
+    "docker/build imaga.md",
+    "docker/Volumes.md",
+    "docker/debug-logovanje.md",
+    "docker/grupisanje i izvrsavanje vise kontainera odjednom.md",
+    "docker/Pokretanje kontainera.md",
+    "docker/sharovanje.md"
   ]
 }
