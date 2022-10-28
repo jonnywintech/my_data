@@ -6,6 +6,18 @@ docker build -t hello .
 #ona oznacava trenutni direktorijum u kome se DOCEKRFILE nalazi
 ```
 
+#### Build imaga sa tagom
+```bash
+docker build -t react-app:1 .
+#react-app je ime a sve posle `:` je tag
+```
+neki timovi koriste naziv a neki build number  u zavisnosti od potreba
+
+dodeljivanje taga imagu koji je vec napravljen 
+```bash
+docker image tag react-app:latest react-app:1
+```
+
 pokretanje build -
 ```bash
 docker run --name heloworld hello

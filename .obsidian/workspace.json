@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1888a791807ad77",
+        "id": "230dd09abaa8c572",
         "type": "tabs",
         "children": [
           {
-            "id": "7b7e45ff979d57d4",
+            "id": "49a0722c8d63b79a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/Pravljenje fajla.md",
+                "file": "8. Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/Pravljenje fajla.md",
+                "file": "8. Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7b7e45ff979d57d4",
+  "active": "49a0722c8d63b79a",
   "lastOpenFiles": [
+    "sharovanje.md",
     "8. Docker.md",
-    "docker/optimizacija fajla.md",
-    "docker/Pravljenje fajla.md",
-    "docker/docker-network.md",
+    "[8. Docker.md",
+    "docker/Pokretanje kontainera.md",
     "docker/build imaga.md",
-    "1. Laravel List.md",
-    "starting laravel/RegisterRequest.md",
-    "starting laravel/AuthController.md",
-    "starting laravel/Controller.md",
-    "starting laravel/Controller with auth.md"
+    "docker/grupisanje i izvrsavanje vise kontainera odjednom.md",
+    "docker/Pravljenje fajla.md",
+    "docker/Cleanup imag-a i konteinera.md",
+    "Cleanup imaga.md",
+    "1. Laravel List.md"
   ]
 }
