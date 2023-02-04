@@ -1,7 +1,7 @@
 # Pravljenje docker fajla
 
 ```bash
- tuch Dockerfile
+ touch Dockerfile
 ```
 ! svaki docker fajl mora imati ovaj naziv
 `unutar docker fajla`

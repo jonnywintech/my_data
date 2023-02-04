@@ -1,5 +1,5 @@
 ## Sacuvavanje podataka
-mapira se putanja iz kontainera na fizicku masinu
+mapira se putanja iz fizicke masine na container
 
 host volume
 ```bash
@@ -22,6 +22,15 @@ primer sa app-data react-app
 docker run -d -p 5000:3000 -v app-data:/app/data react-app
 							# direktanna putanja 
 # a kreiranje foldera bi trebalo da se radi u docker fajlu zbog permisija, dok se ovde samo mapuje
+```
+
+yt React app sa autocleanup komandom
+```bash
+docker run --rm -p 3000:3000 -v $(pwd)/src:app/src:ro react-img
+## --rm cleanum comanda 
+## -v volume konektovanje hosta sa kontainerom
+## :ro read only tako da kontainer moze samo da cita fajlove 
+## react-img ime imag-a
 ```
 
 ### Kopiranje iz kontainera na host
