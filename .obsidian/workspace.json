@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "d67cba06c47218ff",
         "type": "tabs",
         "children": [
           {
             "id": "aac5c4c2b50e8bf1",
+=======
+        "id": "942d8e1319650847",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61c64ff1b17a2c35",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MySql/querry select.md",
+=======
+                "file": "8. Docker.md",
+>>>>>>> Stashed changes
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +89,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MySql/querry select.md",
+=======
+                "file": "8. Docker.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +120,7 @@
       "markdown-importer:Open format converter": false
     }
   },
+<<<<<<< Updated upstream
   "active": "aac5c4c2b50e8bf1",
   "lastOpenFiles": [
     "4. Sql.md",
@@ -116,5 +133,19 @@
     "docker/Pokretanje kontainera.md",
     "docker/debug-logovanje.md",
     "docker/docker-network.md"
+=======
+  "active": "61c64ff1b17a2c35",
+  "lastOpenFiles": [
+    "7. Github.md",
+    "starting react/props.md",
+    "2. React.md",
+    "starting react/Parrent Child.md",
+    "1.1 Laravel Advanced.md",
+    "starting laravel/Model.md",
+    "starting laravel/blade templates.md",
+    "starting laravel/AuthController.md",
+    "1. Laravel List.md",
+    "starting laravel/foreign key.md"
+>>>>>>> Stashed changes
   ]
 }

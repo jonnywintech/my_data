@@ -1,4 +1,4 @@
-## sidebar sa odredjenim broje postova
+## sidebar sa odredjenim brojem postova
 1. pravi se provider 
 ```bash
 php artisan make:provider ViewServiceProvider

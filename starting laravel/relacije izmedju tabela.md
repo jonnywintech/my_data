@@ -2,7 +2,7 @@
 ##### importovati klasu od relacione tabele 
 players je samo jedan primer izmeniti sa vasim imenom modela
 ### Pri pravljenju relacija samo se zapitate Koja je Funkcija trenutnog Modela u kome se pise funkcija
-`hasOne, hasMany, belongsTo, belongsToMany` koristimo odgovarajuce recia za konekciju
+`hasOne, hasMany, belongsTo, belongsToMany` koristimo odgovarajuce reci a za konekciju
 ```php
 public function players()
 {
