@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "d67cba06c47218ff",
+        "id": "53d9bf0497c770fe",
         "type": "tabs",
         "children": [
           {
-            "id": "aac5c4c2b50e8bf1",
-=======
-        "id": "942d8e1319650847",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "61c64ff1b17a2c35",
->>>>>>> Stashed changes
+            "id": "71c9858993553f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MySql/querry select.md",
-=======
-                "file": "8. Docker.md",
->>>>>>> Stashed changes
+                "file": "7. Github.md",
                 "mode": "preview",
                 "source": false
               }
@@ -60,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "emme",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -89,11 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MySql/querry select.md",
-=======
-                "file": "8. Docker.md",
->>>>>>> Stashed changes
+                "file": "7. Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,32 +104,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "aac5c4c2b50e8bf1",
+  "active": "667e2687f710483c",
   "lastOpenFiles": [
-    "4. Sql.md",
+    "starting react/Forms.md",
     "2. React.md",
-    "Bootstrap Komponente React/Navbar.md",
-    "3. Boostrap komponente.md",
-    "docker/Volumes.md",
+    "starting react/LazyLoad.md",
+    "docker/build imaga.md",
     "8. Docker.md",
-    "za istraziti.md",
-    "docker/Pokretanje kontainera.md",
     "docker/debug-logovanje.md",
-    "docker/docker-network.md"
-=======
-  "active": "61c64ff1b17a2c35",
-  "lastOpenFiles": [
-    "7. Github.md",
-    "starting react/props.md",
-    "2. React.md",
-    "starting react/Parrent Child.md",
-    "1.1 Laravel Advanced.md",
-    "starting laravel/Model.md",
-    "starting laravel/blade templates.md",
-    "starting laravel/AuthController.md",
+    "docker/Volumes.md",
+    "docker/Pokretanje kontainera.md",
+    "starting laravel/Factory - Seeder.md",
     "1. Laravel List.md",
-    "starting laravel/foreign key.md"
->>>>>>> Stashed changes
+    "1.1 Laravel Advanced.md"
   ]
 }

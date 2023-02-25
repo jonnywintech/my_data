@@ -27,7 +27,7 @@ docker run -d -p 5000:3000 -v app-data:/app/data react-app
 yt React app sa autocleanup komandom
 ```bash
 docker run --rm -p 5173:5173 -d  -v $(pwd)/src:/app/src:ro react-img
-## --rm cleanum comanda 
+## --rm cleanup comanda brise image kada se ugasi
 ## -v volume konektovanje hosta sa kontainerom
 ## -d detached mode ostavice konzolu u pozadini
 ## :ro read only tako da kontainer moze samo da cita fajlove 
