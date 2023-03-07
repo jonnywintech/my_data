@@ -106,6 +106,7 @@
   },
   "active": "667e2687f710483c",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "starting react/Forms.md",
     "2. React.md",
     "starting react/LazyLoad.md",
@@ -117,5 +118,17 @@
     "starting laravel/Factory - Seeder.md",
     "1. Laravel List.md",
     "1.1 Laravel Advanced.md"
+=======
+    "4. Sql.md",
+    "MySql/Tabele.md",
+    "MySql/Databaze.md",
+    "MySql/querry select.md",
+    "docker/Volumes.md",
+    "8. Docker.md",
+    "2. React.md",
+    "Bootstrap Komponente React/Navbar.md",
+    "3. Boostrap komponente.md",
+    "za istraziti.md"
+>>>>>>> Stashed changes
   ]
 }
