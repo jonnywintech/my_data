@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "74d4eab40386638d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +88,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "MySql/Databaze.md",
+=======
+                "file": "starting laravel/view.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,6 +119,7 @@
       "markdown-importer:Open format converter": false
     }
   },
+<<<<<<< Updated upstream
   "active": "71c9858993553f4c",
   "lastOpenFiles": [
     "4. Sql.md",
@@ -118,5 +134,22 @@
     "starting laravel/view_slug.md",
     "starting laravel/blade templates.md",
     "starting laravel/view.md"
+=======
+  "active": "74d4eab40386638d",
+  "lastOpenFiles": [
+    "1. Laravel List.md",
+    "Laravel/Laravel_Api.md",
+    "starting react/Forms.md",
+    "2. React.md",
+    "7. Github.md",
+    "starting react/LazyLoad.md",
+    "docker/build imaga.md",
+    "8. Docker.md",
+    "docker/debug-logovanje.md",
+    "docker/Volumes.md",
+    "docker/Pokretanje kontainera.md",
+    "starting laravel/Factory - Seeder.md",
+    "1.1 Laravel Advanced.md"
+>>>>>>> Stashed changes
   ]
 }
