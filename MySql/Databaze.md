@@ -38,3 +38,42 @@ mysql -u root -p world < world_2017-10-16.sql
 ```
 
 
+### Nacin 2
+1. Ulogovati se u mysql
+```bash
+mysql -u root
+```
+
+2. Napraviti novu bazu u mysql-u
+```mysql
+CREATE DATABASE test;
+```
+
+3. Selektirati bazu
+``` mysql
+USE test;
+```
+
+4. Napisati `source` i ime fajla 
+```mysql
+source backup-file.sql;
+```
+(u zavisnosti gde je otvoren terminal zavisi putanja do fajla koji se importuje)
+
+## Export Databaze
+
+```bash
+mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
+```
+
+## GZ Import / Export
+
+Export
+```bash
+mysqldump -u [user] -p [db_name] | gzip > [filename_to_compress.sql.gz] 
+```
+
+Import
+```bash
+gunzip < [compressed_filename.sql.gz]  | mysql -u [user] -p[password] [databasename]
+```

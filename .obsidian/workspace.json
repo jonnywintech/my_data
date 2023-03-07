@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "53d9bf0497c770fe",
+        "id": "a243a5a49e871401",
         "type": "tabs",
         "children": [
           {
@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7. Github.md",
-                "mode": "preview",
+                "file": "MySql/Databaze.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7. Github.md",
+                "file": "MySql/Databaze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,31 +104,19 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "667e2687f710483c",
+  "active": "71c9858993553f4c",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "starting react/Forms.md",
-    "2. React.md",
-    "starting react/LazyLoad.md",
-    "docker/build imaga.md",
-    "8. Docker.md",
-    "docker/debug-logovanje.md",
-    "docker/Volumes.md",
-    "docker/Pokretanje kontainera.md",
+    "4. Sql.md",
+    "MySql/Databaze.md",
     "starting laravel/Factory - Seeder.md",
     "1. Laravel List.md",
-    "1.1 Laravel Advanced.md"
-=======
-    "4. Sql.md",
-    "MySql/Tabele.md",
-    "MySql/Databaze.md",
-    "MySql/querry select.md",
-    "docker/Volumes.md",
-    "8. Docker.md",
     "2. React.md",
-    "Bootstrap Komponente React/Navbar.md",
-    "3. Boostrap komponente.md",
-    "za istraziti.md"
->>>>>>> Stashed changes
+    "1.1 Laravel Advanced.md",
+    "8. Docker.md",
+    "docker/docker-network.md",
+    "starting laravel/relacije izmedju tabela.md",
+    "starting laravel/view_slug.md",
+    "starting laravel/blade templates.md",
+    "starting laravel/view.md"
   ]
 }
