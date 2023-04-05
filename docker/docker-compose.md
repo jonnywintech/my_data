@@ -11,65 +11,83 @@ tags:
 	-devops
 ```
 
-primer .yml fajla
+primer .yml fajla za build laravel aplikacije
 ```yaml
-version: "3.3"
-
-  
-
+version: '3.8'
 services:
 
-  frontend:
 
-    depends_on:
+    #Database Server
+    database:
+        image: mysql:8.0
+        ports:
+            - 3306:3306
 
-      - backend
-
-    build: ./frontend
-
-    ports:
-
-      - 3000:3000
-
-  
-
-  backend:
-
-    depends_on:
-
-      - db
-
-    build: ./backend
-
-    ports:
-
-      - 3001:3001
-
-    environment:
-
-      DB_URL: mongodb://db/vidly
-
-    command: ./docker-entrypoint.sh
-
-  
-
-  db:
-
-    image: mongo:4.0-xenial
-
-    ports:
-
-      - 27017:27017
-
-    volumes:
-
-      - vidly:/data/db
-
-  
+        environment:
+            - MYSQL_DATABASE=${DB_DATABASE}
+            - MYSQL_USER=${DB_USER}
+            - MYSQL_PASSWORD=${DB_PASSWORD}
+            - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+        volumes:
+            - db-data:/var/lib/mysql
 
 volumes:
+    db-data: ~
 
-  vidly:
 ```
+enviroment je podesavanje za databau i neophodan je .env fajl u kome su ova podesvanja
 
-docker-compose build #ime_aplikacije
+docker-compose up --build
+
+
+Dalji razvoj fajla i njegov izgled 
+
+```yml
+version: '3.8'
+services:
+    #PHP service
+
+    php:
+        build:
+            context: .
+            #  . means all files in folder like build
+            target: php
+            # target it references to Dockerfile and uses alias
+            args:
+                - APP_ENV=${APP_ENV}
+        environment:
+            - APP_ENV=${APP_ENV}
+            - CONTAINER_ROLE=app
+        working_dir: /var/www
+        volumes:
+            -./: /var/www
+        ports:
+            - 8000:8000
+        depends_on:
+            - database
+            - redis
+
+
+    #Database Server
+    database:
+        image: mysql:8.0
+        ports:
+            - 3306:3306
+
+        environment:
+            - MYSQL_DATABASE=${DB_DATABASE}
+            - MYSQL_USER=${DB_USER}
+            - MYSQL_PASSWORD=${DB_PASSWORD}
+            - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+        volumes:
+            - db-data: /var/lib/mysql
+    #Redis container
+    redis:
+        image: redis:alpine
+        command: redis-server --appendonly yes --requirepass "${REDIS_PASSWORD}"
+        ports:
+            - 6379:6379
+volumes:
+    db-data: ~
+
+```
