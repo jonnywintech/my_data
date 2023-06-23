@@ -1,4 +1,3 @@
-# Linkovanje Ruta
 
 komanda koja nam omogućava koriscenje router linkova
 

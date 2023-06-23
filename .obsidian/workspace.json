@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a243a5a49e871401",
+        "id": "4f80d3849dca94d4",
         "type": "tabs",
         "children": [
           {
-            "id": "71c9858993553f4c",
+            "id": "7430b95ccb007ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySql/Databaze.md",
+                "file": "starting laravel/middleware.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "74d4eab40386638d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "9a2a2e7e55493df2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -88,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "MySql/Databaze.md",
-=======
-                "file": "starting laravel/view.md",
->>>>>>> Stashed changes
+                "file": "starting laravel/middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,37 +112,33 @@
       "markdown-importer:Open format converter": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "71c9858993553f4c",
+  "active": "7430b95ccb007ddc",
   "lastOpenFiles": [
-    "4. Sql.md",
-    "MySql/Databaze.md",
+    "1. Laravel List.md",
+    "starting laravel/middleware.md",
+    "starting laravel/Controller with auth.md",
+    "starting laravel/napredno routovanje  iz  view-a.md",
+    "starting laravel/Controller.md",
+    "starting laravel/Model.md",
+    "starting laravel/Error u formi.md",
     "starting laravel/Factory - Seeder.md",
-    "1. Laravel List.md",
-    "2. React.md",
-    "1.1 Laravel Advanced.md",
-    "8. Docker.md",
-    "docker/docker-network.md",
-    "starting laravel/relacije izmedju tabela.md",
-    "starting laravel/view_slug.md",
-    "starting laravel/blade templates.md",
-    "starting laravel/view.md"
-=======
-  "active": "74d4eab40386638d",
-  "lastOpenFiles": [
-    "1. Laravel List.md",
-    "Laravel/Laravel_Api.md",
-    "starting react/Forms.md",
-    "2. React.md",
-    "7. Github.md",
+    "starting laravel/Email.md",
+    "starting laravel/new_clone_project.md",
+    "starting laravel/new file or cloning project.md",
+    "starting laravel/Model-Controller-factory-seed.md",
+    "starting laravel/AuthController.md",
+    "starting react/Linkovanje Ruta.md",
     "starting react/LazyLoad.md",
-    "docker/build imaga.md",
-    "8. Docker.md",
-    "docker/debug-logovanje.md",
-    "docker/Volumes.md",
-    "docker/Pokretanje kontainera.md",
-    "starting laravel/Factory - Seeder.md",
-    "1.1 Laravel Advanced.md"
->>>>>>> Stashed changes
+    "starting react/komponente.md",
+    "starting react/Input.md",
+    "starting react/formula za sortiranje.md",
+    "starting react/Forms.md",
+    "starting react/Api Request.md",
+    "starting react/React all Steps.md",
+    "2. React.md",
+    "starting react/Dispatch.md",
+    "starting react/Redux Komponente.md",
+    "starting react/Redux.md",
+    "starting react/state.md"
   ]
 }
