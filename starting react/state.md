@@ -32,6 +32,4 @@ set state se ne menja direktno nikako nego preko callback funkcije
 
 
 
-
-
 [[2. React|Nazad]]
