@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "080107707015b1ef",
+        "id": "3f6e5e18eeffff90",
         "type": "tabs",
         "children": [
           {
-            "id": "cfda58f1e4e92efb",
+            "id": "37c278688a1eccc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. React.md",
+                "file": "starting laravel/CORS.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "4a1ab13075461173",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. React.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d354f98714d1b52d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5,
-    "collapsed": true
+    "width": 218.5
   },
   "right": {
     "id": "420cbaaabf4ba8e1",
@@ -107,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "starting laravel/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,10 +112,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d354f98714d1b52d",
+  "active": "37c278688a1eccc0",
   "lastOpenFiles": [
+    "1. Laravel List.md",
+    "starting laravel/CORS.md",
     "2. React.md",
     "starting react/useRef.md",
+    "starting react/Dispatch.md",
+    "starting react/Redux Komponente.md",
+    "starting react/formula za sortiranje.md",
+    "starting react/Routes.md",
+    "starting react/Reducer.md",
+    "starting react/Redux reducer.md",
     "JWT.md",
     "za istraziti.md",
     "starting react/Module components.md",
@@ -147,20 +134,12 @@
     "starting react/Api Request.md",
     "starting laravel/jwt_auth.md",
     "starting laravel/Spatie Laravel Permission.md",
-    "1. Laravel List.md",
     "1.1 Laravel Advanced.md",
     "Laravel/Laravel_Faker_seeder.md",
     "Laravel/Laravel_Api.md",
     "JavaScript/operatori.md",
     "5.JavaScript.md",
     "7. Github.md",
-    "JavaScript/array_methods.md",
-    "starting react/Routes.md",
-    "starting react/Linkovanje Ruta.md",
-    "JavaScript/ENV.md",
-    "JavaScript/connection to api.md",
-    "starting react/useEffect.md",
-    "starting react/state.md",
     "Untitled"
   ]
 }
