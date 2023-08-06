@@ -6,6 +6,12 @@ export const SelectGenres = (state) => state.genre.genres;
 
 export const selectGenre = (state) => state.genre.selectedGenres;
 ```
+(state) je globalni state koji se gadja
+
+.genre je deo u slajsu  (slice) inicijalna variabla u kojoj se smesta vrednos
+
+.selectedGenres je funkcija koja se poziva nad genrom da bi uradio filtrireanje.
+
 `primer 2 sa filterom`
 ```jsx
 export const SelectGenres = (state, filter) => state.genre.genres;
