@@ -49,5 +49,20 @@ return  movies = movies.slice((state.movie.pageNo -1) *5, state.movie.pageNo *5
 ```
 `broj stranice je inicijalno 1 u slice.js  sa -1 postavljamo ga na 0tu vrednost a broj 5 odredjuje koliko elemenata imamo na stranici, onda deo posle zareza odredjuje za sledecu stranicu koliko imamo elemenata i tako u krug`
 
+imamo 2 selectora da bi mogli da disablujemo dugme i  znamo trenutnu stranicu
+```js
+export const selectMoviePage = (state) => state.movie.pageNumber;
+export const hasNextPage = (state) =>
+  state.movie.pageNumber * 5 < state.movie.movies.length;
+
+```
+
+onda imamo dispatch akcije koji menja trenutnu vrednost pageNo s cime se menja sadrzaj
+```jsx
+<button
+disabled={!haveNext}
+onClick={() => dispatch(setPageNumber(+1))}> Next
+</button>
+```
 
 [[2. React|Nazad]] 
