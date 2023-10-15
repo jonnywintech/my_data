@@ -74,3 +74,15 @@ primer:
 `127.0.0.1 mywebsite.com`
 
 kada se ukuca ovo u browseru  host ce prevesti ovo na ip adresu i odvesti na pokrenuti websajt
+
+Ako i dalje neradi dodati u .htaccess fajlu sledece
+
+```htaccess
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
+```

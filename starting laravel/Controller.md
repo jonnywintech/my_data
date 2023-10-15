@@ -26,8 +26,9 @@ imamo imena konvekcije za pisanje u svakom kontorlleru   index() show() create()
 nova verzija
 ```php
 public function index()
-{$teams = Team::all();
- return view('teams.index', compact('teams'));
+{
+	$teams = Team::all();
+	return view('teams.index', compact('teams'));
  }
 ```
 
@@ -35,7 +36,8 @@ strara verzija
 ```php
 public function index()
 {
-$posts = Post::where('is_published', true)->get(); return view('posts', compact('posts')); // [ 'posts' => posts] }
+	$posts = Post::where('is_published', true)->get();
+	return view('posts', compact('posts')); // [ 'posts' => posts] }
 }
 ```
 
@@ -46,8 +48,8 @@ findOrFail  u slucaju da ne nadje nista u databazi vratice 404 gresku umesto da 
 ```php
 public function show($id)
 {
-$post = Post::findOrFail($id);
-return view('post', compact('post'));
+	$post = Post::findOrFail($id);
+	return view('post', compact('post'));
 }
 
 ```
@@ -56,7 +58,7 @@ return view('post', compact('post'));
 ```php
 public function create(Request $request)
 {
-return view('create-post');
+	return view('create-post');
 }
 ```
 
@@ -125,6 +127,7 @@ public function store(Request request)
 	DB::listen(function (query)
 	{
 		info($query->sql);
+		// info komanda upisuje u laravel.log fajl
 	});
 
     // $post = new Post();

@@ -10,6 +10,8 @@ php artisan make:model Flight -mfsc
 ```
 
 
+[[Laravel_Faker_seeder|Faker]]
+
 sve ostale funkcije
 
 ```bash
@@ -53,6 +55,7 @@ php artisan make:model Flight --all
 
 php artisan make:model Member --pivot
 ```
+
 
 
 [[1. Laravel List|Nazad]]

@@ -49,3 +49,5 @@ php artisan db:seed
 
 php artisan migrate:fresh --seed
 ```
+
+[[1. Laravel List|Nazad]]
