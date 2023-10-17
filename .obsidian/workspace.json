@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Laravel List.md",
-                "mode": "source",
+                "file": "Laravel Parts/AuthController.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "Laravel Parts/AuthController.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,32 +114,32 @@
   },
   "active": "e899d3c4bf586c6b",
   "lastOpenFiles": [
-    "Laravel/Laravel_Faker_seeder.md",
-    "starting laravel/Model-Controller-factory-seed.md",
     "1. Laravel List.md",
-    "Laravel/Laravel_Api.md",
-    "Laravel/Laravel CheatSheet.md",
+    "starting laravel/Controller.md",
+    "starting laravel/Controller with auth.md",
+    "starting laravel/view sa Auth controllerima.md",
+    "Laravel Parts/AuthController.md",
+    "MySql/Databaze.md",
+    "Laravel Parts",
     "Laravel Advanced/collect().md",
+    "Laravel/Laravel_Api.md",
+    "Laravel/Laravel_Faker_seeder.md",
+    "Laravel/Laravel CheatSheet.md",
+    "starting laravel/RegisterRequest.md",
+    "starting laravel/pravljenje tabele u databazi.md",
+    "starting laravel/Email.md",
+    "JavaScript/localStorrage.md",
+    "JavaScript/ENV.md",
+    "JavaScript/connection to api.md",
+    "JavaScript/array_methods.md",
+    "JavaScript/export/import.md",
+    "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
+    "starting laravel/Model-Controller-factory-seed.md",
     "starting laravel/Spatie Laravel Permission.md",
     "starting laravel/CORS.md",
     "starting laravel/Pivot Tabela.md",
     "starting laravel/napredno routovanje  iz  view-a.md",
-    "starting laravel/Controller.md",
     "starting laravel/middleware.md",
-    "starting laravel/Controller with auth.md",
-    "starting laravel/Forme.md",
-    "starting laravel/Error u formi.md",
-    "starting laravel/RegisterRequest.md",
-    "starting laravel/view_slug.md",
-    "starting laravel/view.md",
-    "starting laravel/blade templates.md",
-    "1.1 Laravel Advanced.md",
-    "starting react/full project setup.md",
-    "starting laravel/Model.md",
-    "starting laravel/migracije.md",
-    "starting laravel/pravljenje tabele u databazi.md",
-    "starting react/Forms.md",
-    "2. React.md",
-    "Untitled"
+    "starting laravel/Forme.md"
   ]
 }
