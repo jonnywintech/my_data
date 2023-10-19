@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel Parts/AuthController.md",
-                "mode": "preview",
+                "file": "1.1 Laravel Advanced.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel Parts/AuthController.md",
+                "file": "1.1 Laravel Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,17 +114,24 @@
   },
   "active": "e899d3c4bf586c6b",
   "lastOpenFiles": [
+    "Laravel Advanced/Routes.md",
+    "Laravel Advanced/collect().md",
+    "1.1 Laravel Advanced.md",
+    "UnitTesting/Laravel iniciation.md",
+    "UnitTesting/UnitTesting whole example.md",
+    "UnitTesting/Funkcije.md",
+    "starting laravel/AuthController.md",
+    "Laravel/Laravel_Faker_seeder.md",
+    "Laravel/Laravel_Api.md",
+    "Laravel/Laravel CheatSheet.md",
+    "Laravel Parts/AuthController.md",
+    "UnitTesting",
     "1. Laravel List.md",
     "starting laravel/Controller.md",
     "starting laravel/Controller with auth.md",
     "starting laravel/view sa Auth controllerima.md",
-    "Laravel Parts/AuthController.md",
     "MySql/Databaze.md",
     "Laravel Parts",
-    "Laravel Advanced/collect().md",
-    "Laravel/Laravel_Api.md",
-    "Laravel/Laravel_Faker_seeder.md",
-    "Laravel/Laravel CheatSheet.md",
     "starting laravel/RegisterRequest.md",
     "starting laravel/pravljenje tabele u databazi.md",
     "starting laravel/Email.md",
@@ -134,12 +141,6 @@
     "JavaScript/array_methods.md",
     "JavaScript/export/import.md",
     "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
-    "starting laravel/Model-Controller-factory-seed.md",
-    "starting laravel/Spatie Laravel Permission.md",
-    "starting laravel/CORS.md",
-    "starting laravel/Pivot Tabela.md",
-    "starting laravel/napredno routovanje  iz  view-a.md",
-    "starting laravel/middleware.md",
-    "starting laravel/Forme.md"
+    "starting laravel/Model-Controller-factory-seed.md"
   ]
 }
