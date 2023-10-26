@@ -17,7 +17,19 @@ class TestController extends Controller
         $arr = [];
         $all_routes = Route::getRoutes();
         foreach ($all_routes as $route) {
-            array_push($arr,$route);
+            $route_name = $route->getName();
+
+                if(str_contains($route_name, 'debugbar.')){
+                    continue;
+                }else if(str_contains($route_name, 'sanctum.')){
+                    continue;
+                }else if(str_contains($route_name, 'ignition.')){
+                    continue;
+                }else if($route_name === null ){
+                    continue;
+                }
+
+            array_push($arr,$route_name);
         }
         dd($arr);
 
@@ -25,6 +37,28 @@ class TestController extends Controller
 }
 
 ```
+nazad dobijamo samo listu ruta;
+
+```d
+array:16 [▼ // app/Http/Controllers/TestController.php:29
+  0 => "home"
+  1 => "signUp"
+  2 => "login"
+  3 => "logOn"
+  4 => "verification"
+  5 => "resend.email"
+  6 => "logOff"
+  7 => "profile"
+  8 => "update.profile"
+  9 => "myGalleries"
+  10 => "edit.gallery"
+  11 => "view.gallery"
+  12 => "update.gallery"
+  13 => "delete.gallery"
+  14 => "get.gallery"
+  15 => "create.gallery"
+```
+
 
 return code 
 ```d

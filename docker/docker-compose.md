@@ -10,7 +10,7 @@ tags:
 	-software
 	-devops
 ```
-
+### [[lista tagova]]
 primer .yml fajla za build laravel aplikacije
 ```yaml
 version: '3.8'
@@ -25,7 +25,7 @@ services:
 
         environment:
             - MYSQL_DATABASE=${DB_DATABASE}
-            - MYSQL_USER=${DB_USER}
+            - MYSQL_USER=${DB_USERNAME}
             - MYSQL_PASSWORD=${DB_PASSWORD}
             - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
         volumes:
@@ -76,7 +76,7 @@ services:
 
         environment:
             - MYSQL_DATABASE=${DB_DATABASE}
-            - MYSQL_USER=${DB_USER}
+            - MYSQL_USER=${DB_USERNAME}
             - MYSQL_PASSWORD=${DB_PASSWORD}
             - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
         volumes:

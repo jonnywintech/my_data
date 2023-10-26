@@ -39,6 +39,9 @@ minimalni sadrzaj unutar config fajla  - pogledati originalni 000-default.conf f
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
 
+[[laravel_version]] neutrlani fajl za laravel potrebno dopuniti ako se ne radi o dockeru
+
+
 ukoliko se sajt ne prikazuje 
 1. Proveriti da li su svi moduli za php-apache instalirani
 

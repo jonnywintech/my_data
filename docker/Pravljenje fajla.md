@@ -6,6 +6,9 @@
 ! svaki docker fajl mora imati ovaj naziv
 `unutar docker fajla`
 
+`note ukoliko se fajl pravi iz foldera /docker/ COPY . ce citati iz tog folder
+kako je navedeno u .yml fajlu`
+
 ```bash
 FROM ubuntu # ime distribucije
 
@@ -61,6 +64,14 @@ EXPOSE 3000
 
 CMD ["npm", "start"]
 ```
+
+ako nema ove zadnje  komande ili je u pitanju ENTRYPOINT
+## Ostaviti kontainer da radi u pozadini -- mora biti aktivni proccess
+
+```dockerfile
+CMD ["tail", "-f","/dev/null"]
+```
+
 ## [[optimizacija fajla]] za brzi build imaga
 
 [[build imaga]] pravljenje imaga od Docker fajla

@@ -27,6 +27,19 @@ public function handle(Request $request, Closure $next): Response
 }
 ```
 
+ako neradi onda dodati jos :)
+```php
+    public function handle(Request $request, Closure $next): Response
+    {
+        return $next($request)
+        ->header('Access-Control-Allow-Origin', '*')
+        ->header('Access-Control-Allow-Methods', 'PUT', 'POST', 
+        'DELETE', 'GET', 'OPTIONS')
+        ->header('Access-Control-Allow-Headers', 'Accept,Authorization,Content-Type');
+    }
+```
+
+
 dodati middleware u kernel.php
 
 ```php
@@ -39,10 +52,22 @@ protected $routeMiddleware = [
         'guest'         => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'signed'        => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle'      => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'cors'          => \App\Http\Middleware\Cors::class, // ovo je dodato
+        'cors'          => \App\Http\Middleware\MyCors::class, // ovo je dodato
     ];
 ```
+ ima dva nacina  
+ `1` je dodati globalno u $middleware 
+ -ovde nije potrebno dodavati po rutama jer je dodeljen globalno
 
+ `2` je dodati gde je samo potrebno kao middleware
+ -ovde je potrebno dodati samo na odredjene rute koje imaju cors greske
+ ```php
+#1 
+protected $middleware = [];
+
+#2
+protected $routeMiddleware = [];
+```
 i onda se dodaje kao middleware u ruti
 
 ```php

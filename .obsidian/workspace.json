@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Laravel Advanced.md",
-                "mode": "source",
+                "file": "docker/docker-compose.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8d622ccf4d962d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.1 Laravel Advanced.md",
+                "file": "docker/docker-compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,33 +126,33 @@
   },
   "active": "e899d3c4bf586c6b",
   "lastOpenFiles": [
-    "Laravel Advanced/Routes.md",
-    "Laravel Advanced/collect().md",
-    "1.1 Laravel Advanced.md",
-    "UnitTesting/Laravel iniciation.md",
-    "UnitTesting/UnitTesting whole example.md",
-    "UnitTesting/Funkcije.md",
-    "starting laravel/AuthController.md",
-    "Laravel/Laravel_Faker_seeder.md",
-    "Laravel/Laravel_Api.md",
-    "Laravel/Laravel CheatSheet.md",
-    "Laravel Parts/AuthController.md",
-    "UnitTesting",
+    "8. Docker.md",
+    "docker/container-crash-debug.md",
+    "docker/docker-compose.md",
+    "docker/Pokretanje kontainera.md",
+    "Apache2.md",
+    "Apache 2",
+    "Apache 2/laravel_version.md",
+    "za istraziti.md",
+    "starting laravel/CORS.md",
+    "docker/build imaga.md",
+    "docker/Pravljenje fajla.md",
+    "docker/debug-logovanje.md",
+    "docker/Volumes.md",
     "1. Laravel List.md",
-    "starting laravel/Controller.md",
-    "starting laravel/Controller with auth.md",
-    "starting laravel/view sa Auth controllerima.md",
-    "MySql/Databaze.md",
-    "Laravel Parts",
-    "starting laravel/RegisterRequest.md",
-    "starting laravel/pravljenje tabele u databazi.md",
-    "starting laravel/Email.md",
-    "JavaScript/localStorrage.md",
-    "JavaScript/ENV.md",
-    "JavaScript/connection to api.md",
-    "JavaScript/array_methods.md",
-    "JavaScript/export/import.md",
-    "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
-    "starting laravel/Model-Controller-factory-seed.md"
+    "docker/lista tagova.md",
+    "JWT.md",
+    "docker/docker-network.md",
+    "docker/optimizacija fajla.md",
+    "Laravel Parts/AuthController.md",
+    "starting laravel/view_slug.md",
+    "Laravel Advanced/Routes.md",
+    "1.1 Laravel Advanced.md",
+    "starting laravel/Model-Controller-factory-seed.md",
+    "starting laravel/Model.md",
+    "starting laravel/relacije izmedju tabela.md",
+    "starting laravel/Pivot Tabela.md",
+    "UnitTesting",
+    "Laravel Parts"
   ]
 }
