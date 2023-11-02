@@ -23,5 +23,21 @@ docker run \
 mongo
 ```
 
+7 Types of docker network
+1. Bridge - default - svi kontaineri se vezu  po defaultu 
+2. User - define bridge (docker prefered)
+3. Host -  no port exposion need - it move directly to host - no isolation
+4. MacWlan - directly connected to switch and it get mac adress and ip adress 
+enable promiscius to work (phisicly one port can hold only one to max 2 mac addresses) - `no DHCP` manualy set ip address
+```bash
+sudo ip link set [network name] promisc on
+```
+5. ipvlan  same as MacWlan but  matches mac address to host but it will have seperate ip addresses
+6. ipvlan(L3) like host is a router
+7. none - Block all of networks absolute isolation
+![[Screenshot 2023-10-28 003724.png]]
+more about in https://www.youtube.com/watch?v=bKFMS5C4CG0
+
+
 [[8. Docker|Nazad]]
 

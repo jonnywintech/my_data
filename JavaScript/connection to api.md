@@ -82,4 +82,4 @@ const fruitInspection = async () => {
 fruitInspection();
 ```
 
-[[5.JavaScript|Nazad]] 
+[[5. JavaScript|Nazad]] 

@@ -7,4 +7,4 @@
 
 `var` ova rec je rezervisana za globalnu vrednos. Njoj se moze pristupiti u bilo kom delu skopa funcije. Uglavnom se izbegava koriscenje ove reci ukoliko nije bas potrebno, zbog rezervacije reci. 
 
-[[5.JavaScript|Nazad]]
+[[5. JavaScript|Nazad]]

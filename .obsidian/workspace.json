@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docker/docker-compose.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8d622ccf4d962d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apache2.md",
+                "file": "starting laravel/CORS.md",
                 "mode": "preview",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docker/docker-compose.md",
+                "file": "starting laravel/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,32 +114,36 @@
   },
   "active": "e899d3c4bf586c6b",
   "lastOpenFiles": [
-    "8. Docker.md",
-    "docker/container-crash-debug.md",
-    "docker/docker-compose.md",
-    "docker/Pokretanje kontainera.md",
-    "Apache2.md",
-    "Apache 2",
-    "Apache 2/laravel_version.md",
-    "za istraziti.md",
-    "starting laravel/CORS.md",
-    "docker/build imaga.md",
-    "docker/Pravljenje fajla.md",
-    "docker/debug-logovanje.md",
-    "docker/Volumes.md",
     "1. Laravel List.md",
-    "docker/lista tagova.md",
-    "JWT.md",
-    "docker/docker-network.md",
-    "docker/optimizacija fajla.md",
-    "Laravel Parts/AuthController.md",
-    "starting laravel/view_slug.md",
-    "Laravel Advanced/Routes.md",
-    "1.1 Laravel Advanced.md",
+    "JavaScript/connection to api.md",
+    "5. JavaScript.md",
+    "JavaScript/localStorrage.md",
+    "starting react/Reducer.md",
+    "2. React.md",
+    "starting react/Dispatch.md",
+    "starting react/full project setup.md",
+    "starting react/Redux.md",
+    "4. Sql.md",
+    "starting react/Paginacija-React.md",
+    "starting react/useRef.md",
+    "starting react/komponente.md",
+    "starting react/Starting.md",
+    "starting react/Selector.md",
+    "starting react/Redux Komponente.md",
+    "starting react/Routes.md",
+    "starting react/props.md",
+    "JavaScript/ENV.md",
+    "starting react/Api Request.md",
+    "7. Github.md",
+    "6. Sass.md",
+    "docker/docker-compose.md",
+    "8. Docker.md",
     "starting laravel/Model-Controller-factory-seed.md",
-    "starting laravel/Model.md",
-    "starting laravel/relacije izmedju tabela.md",
-    "starting laravel/Pivot Tabela.md",
+    "starting laravel/Controller.md",
+    "Linux",
+    "docker/images/Screenshot 2023-10-28 003724.png",
+    "docker/images",
+    "Apache 2",
     "UnitTesting",
     "Laravel Parts"
   ]

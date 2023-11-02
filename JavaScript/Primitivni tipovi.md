@@ -17,4 +17,4 @@ symboli se cesto koriste kao kljucevi u objektu da se nebi podudarali sa drugim 
 
 Object - kolekcija  vrednosti
 
-[[5.JavaScript|Nazad]]  
+[[5. JavaScript|Nazad]]  

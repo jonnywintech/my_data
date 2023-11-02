@@ -6,4 +6,4 @@ pravilo za pisanje imena u javaScriptu je Camel Case gde je svaka druga  u imenu
 variabla nema tip ona samo sluzi kao konteiner
 a vrednost unutar variable ima tip
 
-[[5.JavaScript|Nazad]] 
+[[5. JavaScript|Nazad]] 

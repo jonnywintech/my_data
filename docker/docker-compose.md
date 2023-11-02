@@ -1,5 +1,7 @@
 Moderan i jednostavan nacin da se napravi aplikacija sa 2-3-4 kontainera odjednom i pokrene jednom komandom `docker-compose up`  i `docker-compose down` da se zaustavi
 #### Naziv fajla mora biti `docker-compose.yml`
+
+### keep container runing  command `tail -f /dev/null`
 ### pocetak .yaml ili .yml fajla
 ```yml
 --- #ovim se oznacava pocetak fajla
