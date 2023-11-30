@@ -13,8 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "starting laravel/CORS.md",
+                "file": "docker/Volumes.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e8701c9222f7166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "starting react/props.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "starting laravel/CORS.md",
+                "file": "docker/Volumes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,32 +126,32 @@
   },
   "active": "e899d3c4bf586c6b",
   "lastOpenFiles": [
-    "1. Laravel List.md",
-    "JavaScript/connection to api.md",
-    "5. JavaScript.md",
-    "JavaScript/localStorrage.md",
-    "starting react/Reducer.md",
-    "2. React.md",
-    "starting react/Dispatch.md",
-    "starting react/full project setup.md",
-    "starting react/Redux.md",
-    "4. Sql.md",
-    "starting react/Paginacija-React.md",
-    "starting react/useRef.md",
-    "starting react/komponente.md",
-    "starting react/Starting.md",
-    "starting react/Selector.md",
-    "starting react/Redux Komponente.md",
-    "starting react/Routes.md",
-    "starting react/props.md",
-    "JavaScript/ENV.md",
-    "starting react/Api Request.md",
-    "7. Github.md",
-    "6. Sass.md",
-    "docker/docker-compose.md",
     "8. Docker.md",
-    "starting laravel/Model-Controller-factory-seed.md",
-    "starting laravel/Controller.md",
+    "docker/build imaga.md",
+    "Slots.md",
+    "za istraziti.md",
+    "2. React.md",
+    "starting react/Props.children.md",
+    "starting react/props.md",
+    "10. Apache2.md",
+    "JWT.md",
+    "starting react/Forwarding.props.md",
+    "starting react/slice.md",
+    "starting react/Redux.md",
+    "starting react/Reducer.md",
+    "starting react/Switch.md",
+    "starting react/useRef.md",
+    "starting react/full project setup.md",
+    "starting react/Parrent Child.md",
+    "starting react/Input.md",
+    "starting react/Dispatch.md",
+    "starting react/komponente.md",
+    "starting react/Redux reducer.md",
+    "starting react/Module components.md",
+    "starting react/LazyLoad.md",
+    "starting react/reduxSaga.md",
+    "starting react/React all Steps.md",
+    "starting laravel/CORS.md",
     "Linux",
     "docker/images/Screenshot 2023-10-28 003724.png",
     "docker/images",

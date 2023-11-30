@@ -54,5 +54,6 @@ email="mr.whiskaz@catnap.meow"
 bitno je da se naziv objekta poklapa sa komponentom u kojoj proseldjujemo stavke
 
 Prosledjivanje podataka se vrsi preko props u jednom pravcu Parent -> child 
-
+[[Props.children]] koriscenje komponente kao wrappera
+[[Forwarding.props]] dinamicno kreiranje komponente
 [[2. React|Nazad]]
