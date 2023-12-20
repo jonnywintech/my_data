@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Server/Organization.md",
+                "file": "Slots.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/Organization.md",
+                "file": "Slots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,13 +114,16 @@
   },
   "active": "5e8701c9222f7166",
   "lastOpenFiles": [
+    "za istraziti.md",
+    "Slots.md",
     "Server.md",
+    "JWT.md",
+    "4. Sql.md",
     "Server/Organization.md",
     "MySql/querry select.md",
     "MySql/Tabele.md",
     "MySql/SqlEctron.md",
     "5. JavaScript.md",
-    "4. Sql.md",
     "3. Boostrap komponente.md",
     "2. React.md",
     "1.1 Laravel Advanced.md",
@@ -135,10 +138,7 @@
     "docker/Volumes.md",
     "8. Docker.md",
     "docker/build imaga.md",
-    "Slots.md",
-    "za istraziti.md",
     "starting react/Props.children.md",
-    "JWT.md",
     "starting react/Forwarding.props.md",
     "starting react/slice.md",
     "Linux",
