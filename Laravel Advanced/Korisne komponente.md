@@ -1,0 +1,1 @@
+[[Delete Button]] dugme za brisanje koje ima confirm prompt od browsera
