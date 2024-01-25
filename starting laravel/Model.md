@@ -38,7 +38,7 @@ players je samo jedan primer izmeniti sa vasim imenom modela
 ```php
 public function players()
 {
-return $this->hasMany(Player::class);
+	return $this->hasMany(Player::class);
 }
 ```
 
@@ -48,12 +48,26 @@ return $this->hasMany(Player::class);
 players je samo jedan primer izmeniti sa vasim imenom modela
 
 ```php
-//importovati
+//nezaboravite 
+use App\Models\User;
+
 public function team()
 {
-return $this->belongsTo(Team::class);
+	return $this->belongsTo(Team::class);
 }
 ```
+
+Ako ne prepoznaje model mora se dodati 'foreign_id' koje je vezan za klasu koja je upravo napisana i onda strani kljuc u trenutnoj tabeli
+
+```php
+public function team()
+{
+	return $this->belongsTo(Team::class,'id', 'team_id');
+	//			vezano je za klasu koja je upravo napisana
+	//				prvo njen id pa onda strani kljuc u tabeli
+}
+```
+
 
 [[Controller]]
 
