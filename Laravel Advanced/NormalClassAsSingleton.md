@@ -1,6 +1,6 @@
 # Koristiti laravel CLass as Singleton
 
-u zagalvlju php fajla kada se `use #putanjaKontrollera` dodati Fasade ispre \App
+u zagalvlju php fajla kada se `use #putanjaKontrollera` dodati `Facades` ispred \App
 
 primer
 ```php
