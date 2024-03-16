@@ -1,1 +1,2 @@
-1. [[Organization]]  of folders on server
+1. [[Organization]]  of foldera na serveru i konfiguracija .htaccess za rute
+2. [[Setup LAMP]] Linux Apache Mysql PHP ceo guide za instalaciju

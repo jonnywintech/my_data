@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "Server/Organization.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "10f9a4b11b2de15c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "za istraziti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "za istraziti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +125,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ca0fd88446e88f4d",
+  "active": "10f9a4b11b2de15c",
   "lastOpenFiles": [
+    "JWT.md",
+    "Server.md",
+    "Server/Organization.md",
+    "Server/Setup LAMP.md",
+    "Apache 2/Apache2.md",
+    "Apache 2/laravel_version.md",
+    "Apache 2/debian_server.md",
+    "starting laravel/Error u formi.md",
+    "Untitled",
     "starting laravel/Blade X Templates.md",
     "1. Laravel List.md",
     "starting laravel/blade templates.md",
     "Laravel Advanced/NormalClassAsSingleton.md",
     "1.1 Laravel Advanced.md",
-    "Apache 2/laravel_version.md",
-    "Apache 2/debian_server.md",
     "docker/images/Screenshot 2023-10-28 003724.png",
     "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
     "starting react/Slots.md",
@@ -132,16 +152,10 @@
     "starting react/full project setup.md",
     "starting react/komponente.md",
     "starting react/Starting.md",
-    "10. Apache2.md",
     "Delete Button.md",
     "Laravel Advanced/Korisne komponente.md",
     "Laravel Advanced/komponente",
     "starting laravel/Controller.md",
-    "starting react/LazyLoad.md",
-    "starting react/useRef.md",
-    "Server.md",
-    "JWT.md",
-    "8. Docker.md",
     "Server",
     "Linux",
     "docker/images",
