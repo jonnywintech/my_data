@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "fd2f1c07f38ad522",
+        "id": "aad41ae8cf868399",
         "type": "tabs",
         "children": [
           {
-            "id": "ca0fd88446e88f4d",
+            "id": "1d6366231dd00f62",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Server/Organization.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "10f9a4b11b2de15c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "za istraziti.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "za istraziti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,19 +107,28 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "10f9a4b11b2de15c",
+  "active": "1d6366231dd00f62",
   "lastOpenFiles": [
+    "8. Docker.md",
+    "Apache 2/Apache2.md",
+    "docker/Linux user fix permissions.md",
+    "7. Github.md",
+    "starting laravel/pravljenje tabele u databazi.md",
+    "1. Laravel List.md",
+    "starting laravel/Pivot Tabela.md",
+    "Laravel/Laravel_Faker_seeder.md",
+    "Laravel/Laravel CheatSheet.md",
+    "Server/Organization.md",
+    "docker/docker-compose.md",
+    "za istraziti.md",
     "JWT.md",
     "Server.md",
-    "Server/Organization.md",
     "Server/Setup LAMP.md",
-    "Apache 2/Apache2.md",
     "Apache 2/laravel_version.md",
     "Apache 2/debian_server.md",
     "starting laravel/Error u formi.md",
     "Untitled",
     "starting laravel/Blade X Templates.md",
-    "1. Laravel List.md",
     "starting laravel/blade templates.md",
     "Laravel Advanced/NormalClassAsSingleton.md",
     "1.1 Laravel Advanced.md",
@@ -145,17 +136,8 @@
     "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
     "starting react/Slots.md",
     "2. React.md",
-    "za istraziti.md",
     "Linux/bash_scripts.md",
-    "Laravel Parts/AuthController.md",
-    "7. Github.md",
-    "starting react/full project setup.md",
-    "starting react/komponente.md",
-    "starting react/Starting.md",
-    "Delete Button.md",
-    "Laravel Advanced/Korisne komponente.md",
     "Laravel Advanced/komponente",
-    "starting laravel/Controller.md",
     "Server",
     "Linux",
     "docker/images",
