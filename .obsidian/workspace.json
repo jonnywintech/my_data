@@ -11,8 +11,12 @@
             "id": "1d6366231dd00f62",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Server/Composer&Nodejs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Server/Composer&Nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,12 +114,22 @@
   },
   "active": "1d6366231dd00f62",
   "lastOpenFiles": [
-    "8. Docker.md",
+    "Server/Server.md",
+    "Apache 2/laravel_version.md",
+    "Apache 2/debian_server.md",
     "Apache 2/Apache2.md",
-    "docker/Linux user fix permissions.md",
+    "Server/Composer&Nodejs.md",
+    "9. LInux Tips and tricks.md",
+    "8. Docker.md",
     "7. Github.md",
-    "starting laravel/pravljenje tabele u databazi.md",
+    "5. JavaScript.md",
+    "4. Sql.md",
+    "3. Boostrap komponente.md",
+    "2. React.md",
+    "1.1 Laravel Advanced.md",
     "1. Laravel List.md",
+    "docker/Linux user fix permissions.md",
+    "starting laravel/pravljenje tabele u databazi.md",
     "starting laravel/Pivot Tabela.md",
     "Laravel/Laravel_Faker_seeder.md",
     "Laravel/Laravel CheatSheet.md",
@@ -122,21 +137,11 @@
     "docker/docker-compose.md",
     "za istraziti.md",
     "JWT.md",
-    "Server.md",
     "Server/Setup LAMP.md",
-    "Apache 2/laravel_version.md",
-    "Apache 2/debian_server.md",
     "starting laravel/Error u formi.md",
     "Untitled",
     "starting laravel/Blade X Templates.md",
-    "starting laravel/blade templates.md",
-    "Laravel Advanced/NormalClassAsSingleton.md",
-    "1.1 Laravel Advanced.md",
     "docker/images/Screenshot 2023-10-28 003724.png",
-    "Google Tag manager/Analytics  - Tag Manager  - Ads.md",
-    "starting react/Slots.md",
-    "2. React.md",
-    "Linux/bash_scripts.md",
     "Laravel Advanced/komponente",
     "Server",
     "Linux",
