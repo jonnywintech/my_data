@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "aad41ae8cf868399",
+        "id": "aa6a6a6d13d71a3d",
         "type": "tabs",
         "children": [
           {
-            "id": "1d6366231dd00f62",
+            "id": "4cf6fec85fd97876",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Server/Composer&Nodejs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Server/Composer&Nodejs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,16 +107,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1d6366231dd00f62",
+  "active": "4cf6fec85fd97876",
   "lastOpenFiles": [
+    "7. Github.md",
+    "Server/Composer&Nodejs.md",
     "Server/Server.md",
     "Apache 2/laravel_version.md",
     "Apache 2/debian_server.md",
     "Apache 2/Apache2.md",
-    "Server/Composer&Nodejs.md",
     "9. LInux Tips and tricks.md",
     "8. Docker.md",
-    "7. Github.md",
     "5. JavaScript.md",
     "4. Sql.md",
     "3. Boostrap komponente.md",
