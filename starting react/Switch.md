@@ -6,23 +6,24 @@ importuje se najpre sa sledecom sintaxom
 ```jsx
 import { Switch } from 'react-router-dom';
 ```
-
+# ne koristi ovo , depricated je
+# koristiti 6.6 [[starting react/Routes|Routes]]
 `primeri specificne rute`
 ```jsx
-<Switch>
-	<Route path='/articles/:title'>
-		<Article>
-	</Route>
-</Switch>
+//<Switch>
+//	<Route path='/articles/:title'>
+//		<Article>
+//	</Route>
+// </Switch>
 ```
 
 `primer nexpecificne rute`
 ```jsx
-<Switch>
-	<Route path='/articles'>
-		<Article>
-	</Route>
-</Switch>
+//<Switch>
+//	<Route path='/articles'>
+//		<Article>
+//	</Route>
+//</Switch>
 ```
 
 
