@@ -1,8 +1,17 @@
+
+
+### Primer za layout
+
+Pravljenje `View layouta`
+```bash
+php artisan make:component App --view
+```
+### Primer za komponentu
+
 Komponente i layouti se prave artisan komandom
 ```bash
 php artisan make:component CustomComponent
 ```
-
 ovo pravi 2 fajla
 
 Prvi je klasa koja vraca view a drugi je sam view
@@ -42,9 +51,9 @@ blade gde se poziva
         </h2>
     </x-slot>
 
-    <!-- Other content of the layout goes here -->
+    <!-- OSTALE KOMPONENTE -->
 
-    <!-- Using the custom component -->
+    <!-- OVDE  SE POZIVA -->
     <x-custom-component />
     <!-- samo zatvarajuca komponenta slican react-u -->
 </x-app-layout>
@@ -98,5 +107,21 @@ blade gde se poziva
 
 ```
 
+### Ovo je primer za Layout
+
+layout se kreira i onda se extenduje
+umesto `@content('content')`
+`@endcontent`
+
+Controller zove componentu koja sadrzi sledece
+```php
+<x-app-web-layout>
+	<h4> Welcome </h4>
+</x-app-web-layout>
+```
+
+`x-app-web-layout` je naziv layouta i time se ovom layoutu prosledjuje `<h4> Welcome</h4>`
+
+`x-app-web-layout` ima `{{$slots}}` variablu koja je placeholder za data koj i se prosledjuje 
 
 [[1. Laravel List|Nazad]]
