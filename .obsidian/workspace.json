@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "fd2f1c07f38ad522",
+        "id": "328ae247012b038a",
         "type": "tabs",
         "children": [
           {
-            "id": "5e8701c9222f7166",
+            "id": "89db09af75ef6fec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "Laravel Livewire/Eventi i dispatch -- updejtovanje sadrzaja.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0302f6846614329d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "za istraziti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74176956bb684e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSL Setup Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 252.5
   },
   "right": {
     "id": "420cbaaabf4ba8e1",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Laravel List.md",
+                "file": "WSL Setup Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,39 +137,40 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "667e2687f710483c",
+  "active": "74176956bb684e1c",
   "lastOpenFiles": [
-    "starting react/Slots.md",
-    "starting laravel/Blade X Templates.md",
-    "Server/Setup LAMP.md",
-    "Server/Server.md",
-    "Server/Composer&Nodejs.md",
-    "Laravel Livewire/Notification.md",
+    "za istraziti.md",
+    "WSL Setup Docker.md",
     "Laravel Livewire/Eventi i dispatch -- updejtovanje sadrzaja.md",
+    "Server/Setup LAMP.md",
     "Laravel Livewire/Dodavanje u stranice u livewire.md",
+    "Laravel Parts/AuthController.md",
+    "Laravel Livewire/Notification.md",
     "Laravel Livewire",
-    "Apache 2/Apache2.md",
-    "starting laravel/Model.md",
+    "Laravel Parts/Untitled.md",
+    "starting laravel/Error u formi.md",
+    "starting laravel/Controller.md",
+    "starting laravel/view_slug.md",
     "1. Laravel List.md",
-    "starting laravel/sidebar.md",
+    "Laravel/Laravel CheatSheet.md",
+    "JavaScript/array_methods.md",
+    "5. JavaScript.md",
+    "7. Github.md",
+    "6. Sass.md",
+    "Apache 2/Apache2.md",
+    "Apache 2/debian_server.md",
+    "Apache 2/laravel_version.md",
+    "Bootstrap Komponente React/Navbar.md",
+    "3. Boostrap komponente.md",
+    "Laravel/Laravel_Faker_seeder.md",
     "Laravel/Laravel_Api.md",
-    "starting laravel/AuthController.md",
-    "Delete Button.md",
     "JavaScript/Vrednosti i Variable.md",
-    "Laravel Advanced/Korisne komponente.md",
-    "starting react/useRef.md",
-    "2. React.md",
-    "starting react/full project setup.md",
-    "Slots.md",
-    "Server.md",
-    "JWT.md",
-    "10. Apache2.md",
-    "9. LInux Tips and tricks.md",
-    "8. Docker.md",
+    "JavaScript/Tipovi variabli.md",
+    "Untitled",
+    "docker/images/Screenshot 2023-10-28 003724.png",
     "Laravel Advanced/komponente",
     "Server",
     "Linux",
-    "docker/images/Screenshot 2023-10-28 003724.png",
     "docker/images",
     "Apache 2",
     "UnitTesting",
