@@ -68,6 +68,42 @@ public function team()
 }
 ```
 
+#### Napredne relacije u  pivot tabeli kada se ne koristi model za pivot tabelu
+```php
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class Post extends Model
+{
+    use HasFactory;
+
+    protected $guarded = [];
+
+    public function categories()
+    {
+        return $this->belongsToMany(BlogCategory::class, 'blog_category_post', 'post_id', 'category_id');
+    }
+
+    public function tags()
+    {
+        return $this->belongsToMany(BlogTag::class, 'blog_post_tag', 'post_id', 'tag_id');
+    }
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+}
+
+```
+blog_category_post -- naziv tabele
+post_id -- naziv kolone iz koje se cita ili upisuje
+category_id -- naziv kolone iz koje se cita ili upisuje
+
+bitno je upisate obe kolone iz pivot tabele jer ce se desiti greska pri upisivanju ako se upise samo jedna
 
 [[Controller]]
 

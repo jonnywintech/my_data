@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel Advanced/Korisne komponente.md",
+                "file": "1. Laravel List.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca0fd88446e88f4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Delete Button.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "delete",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel Advanced/Korisne komponente.md",
+                "file": "1. Laravel List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,35 +112,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5e8701c9222f7166",
+  "active": "667e2687f710483c",
   "lastOpenFiles": [
-    "Delete Button.md",
-    "Laravel Advanced/Korisne komponente.md",
-    "Laravel Advanced/komponente",
+    "starting laravel/Model.md",
     "1. Laravel List.md",
-    "starting laravel/Controller.md",
-    "2. React.md",
-    "starting react/LazyLoad.md",
+    "starting laravel/sidebar.md",
+    "Laravel/Laravel_Api.md",
+    "starting laravel/AuthController.md",
+    "Delete Button.md",
+    "JavaScript/Vrednosti i Variable.md",
+    "Laravel Advanced/Korisne komponente.md",
     "starting react/useRef.md",
+    "2. React.md",
     "starting react/full project setup.md",
-    "starting react/komponente.md",
-    "starting react/Starting.md",
     "Slots.md",
     "Server.md",
-    "10. Apache2.md",
-    "za istraziti.md",
     "JWT.md",
-    "8. Docker.md",
-    "docker/Pokretanje kontainera.md",
-    "docker/build imaga.md",
-    "starting laravel/pravljenje tabele u databazi.md",
-    "starting laravel/Model-Controller-factory-seed.md",
-    "starting laravel/Model.md",
-    "1.1 Laravel Advanced.md",
-    "docker/debug-logovanje.md",
+    "10. Apache2.md",
     "9. LInux Tips and tricks.md",
+    "8. Docker.md",
     "7. Github.md",
-    "4. Sql.md",
+    "6. Sass.md",
+    "Bootstrap Komponente React/Navbar.md",
+    "3. Boostrap komponente.md",
+    "1.1 Laravel Advanced.md",
+    "5. JavaScript.md",
+    "Server/Organization.md",
+    "za istraziti.md",
+    "JavaScript/operatori.md",
+    "Laravel Advanced/komponente",
     "Server",
     "Linux",
     "docker/images/Screenshot 2023-10-28 003724.png",
