@@ -1,4 +1,4 @@
-```conf
+```c
 <VirtualHost *:80>
 	# The ServerName directive sets the request scheme, hostname and port that
 	# the server uses to identify itself. This is used when creating
@@ -38,4 +38,4 @@
 
 ```
 
-[[10. Apache2]]
+[[Apache2]]

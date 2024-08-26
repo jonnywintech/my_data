@@ -16,7 +16,8 @@ export default function Examples(){
 	<Section title="Examples" id="Examples">
 		<Tabs
 			componentWrapper="menu"
-			// ovde unosimo vrednost menu kao string gde reakt prosledjuje i pravi dinamicnu komponentu u zavisnosti koji parametar prosledimo
+			// ovde unosimo vrednost menu kao string gde 
+			//reakt prosledjuje i pravi dinamicnu komponentu u zavisnosti koji parametar prosledimo
 			buttons={
 				<TabButton
 					isSelected={selectedTopic === 'components'}
