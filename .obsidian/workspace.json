@@ -37,8 +37,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Gotove Komponente.md",
+                "file": "Laravel Advanced/Korisne komponente.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0544bff7cc310a76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "starting laravel/components/Kloniranje div reda sa old variablom.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -49,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind.md",
+                "file": "starting laravel/components/Popup Error notification -- Tailwind.md",
                 "mode": "preview",
                 "source": false
               }
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tailwind.md",
+                "file": "starting laravel/components/Kloniranje div reda sa old variablom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,35 +161,36 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8ba374b6961095b4",
+  "active": "0544bff7cc310a76",
   "lastOpenFiles": [
+    "Laravel Advanced/Korisne komponente.md",
+    "starting laravel/components/Kloniranje div reda sa old variablom.md",
+    "Laravel Livewire/Eventi i dispatch -- updejtovanje sadrzaja.md",
+    "za istraziti.md",
+    "1. Laravel List.md",
+    "1.1 Laravel Advanced.md",
     "3. Gotove Komponente.md",
-    "Tailwind.md",
     "Bootstrap.md",
+    "starting laravel/components/Popup Error notification -- Tailwind.md",
+    "starting laravel/components/Delete Button.md",
+    "starting laravel/components",
+    "Laravel Parts/AuthController.md",
+    "docker/debug-logovanje.md",
+    "Tailwind.md",
     "Gotove Komponente/Bootstrap Komponente React/Navbar.md",
     "Gotove Komponente",
     "4. Sql.md",
     "UnitTesting/Funkcije.md",
-    "1. Laravel List.md",
-    "1.1 Laravel Advanced.md",
     "2. React.md",
     "5. JavaScript.md",
     "6. Sass.md",
     "9. LInux Tips and tricks.md",
-    "Delete Button.md",
     "JWT.md",
     "WSL Setup Docker.md",
-    "za istraziti.md",
     "starting laravel/blade templates.md",
     "docker/Pravljenje fajla.md",
     "8. Docker.md",
     "docker/Pokretanje kontainera.md",
-    "docker/grupisanje i izvrsavanje vise kontainera odjednom.md",
-    "docker/docker-compose.md",
-    "docker/Volumes.md",
-    "docker/build imaga.md",
-    "docker/optimizacija fajla.md",
-    "Laravel Livewire/Eventi i dispatch -- updejtovanje sadrzaja.md",
     "Laravel Livewire",
     "docker/images/Screenshot 2023-10-28 003724.png",
     "Laravel Advanced/komponente",
