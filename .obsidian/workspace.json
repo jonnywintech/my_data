@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "f90fb65792db1fbb",
+        "id": "ce71b41b05b15faa",
         "type": "tabs",
         "children": [
           {
-            "id": "8cc5d2dfab017270",
+            "id": "d4e276781e747359",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gotove Komponente/Upload fajlova dropzone.md",
+                "file": "starting laravel/Blade X Templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Upload fajlova dropzone"
+              "title": "Blade X Templates"
+            }
+          },
+          {
+            "id": "91c5303e1077d722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Laravel List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Laravel List"
+            }
+          },
+          {
+            "id": "15096f15fa8b2ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "starting laravel/Blade Directive.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blade Directive"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -122,8 +152,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "667e2687f710483c",
+  "active": "15096f15fa8b2ee0",
   "lastOpenFiles": [
+    "1. Laravel List.md",
+    "starting laravel/Blade Directive.md",
+    "starting laravel/Blade X Templates.md",
+    "starting laravel/blade templates.md",
+    "Gotove Komponente/Upload fajlova dropzone.md",
     "Apache 2/Apache2.md",
     "Apache 2/laravel_version.md",
     "docker/docker-compose.md",
@@ -141,15 +176,10 @@
     "Laravel/Laravel_Faker_seeder.md",
     "Laravel/Laravel_Api.md",
     "Laravel/Laravel CheatSheet.md",
-    "Gotove Komponente/Upload fajlova dropzone.md",
     "Laravel Advanced/Korisne komponente.md",
-    "1. Laravel List.md",
     "starting laravel/Komponente.md",
     "starting laravel/components/Kloniranje div reda sa old variablom.md",
     "7. Github.md",
-    "3. Gotove Komponente.md",
-    "Laravel Advanced/Routes.md",
-    "Laravel Advanced/NormalClassAsSingleton.md",
     "starting laravel/components",
     "Gotove Komponente/Bootstrap Komponente React",
     "Gotove Komponente",
