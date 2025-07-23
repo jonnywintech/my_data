@@ -19,9 +19,11 @@ search word		/word  `n` jump to next one
 search and replace	:%s/old/new
 jump to start ofline	0
 jump to end of line 	$
-
 for all command and help :h
-
 execute terminal command    :term
+create new file :e
+search for file `space`sf
+jump to end of file and write shift + A
+jump to begining of file and write shift + I
 
 
