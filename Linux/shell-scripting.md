@@ -71,10 +71,53 @@ echo "here are $all_config_files located on server"
 
 making prompt in shell
 
-```bin
+```bash
 #! /bin/bash
 
 echo "Reading user input"
-read -p "Please enter your password"
+read -p "Please enter your password" user_pwd
+
+echo "thanks for your password $user_pwd"
+# in this case password is ave into user_wpd variable and later on echoed  just for practicing and representing later on how user input can be used
 ```
 
+multiple parameters script
+```bash
+#! /bin/bash
+echo "user $1"
+echo "user $2"
+# this displays only this first 2 variable
+
+# however $* represent all parameters entered after script as STRING
+
+#>> /script.sh var1, var2, var3, var4
+echo "all variables as string $*"
+
+#>> var1, var2, var3, var4
+
+#looping trough variables and echoing them
+
+for param in $*
+ do
+ echo $param
+ done
+
+ #simple example of bash for in loop
+
+```
+Example of while loop and how summing numbers work in bash
+```bash
+#! /bin/bash
+
+sum=0
+while true
+ do
+  read -p "enter a score: " score
+  if [ "$score" == "q" ]
+  then
+   break
+  fi
+#here is situation how to sum two numbers in bash with double braces one for eval and another one for getting result as var
+  sum=$(($sum+$score))
+  echo "toal score $sum"
+done
