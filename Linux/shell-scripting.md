@@ -142,3 +142,19 @@ function create_file() {
 }
 ```
 
+it is different from other languages, because params are passed inside function body and not in braces (param1, param2)
+
+also there is return
+
+```bash
+#! /bin/bash
+function sum() {
+total=$(($1+$2))
+return $total
+}
+
+sum 23 55
+```
+
+
+
