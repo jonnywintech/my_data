@@ -121,3 +121,24 @@ while true
   sum=$(($sum+$score))
   echo "toal score $sum"
 done
+```
+
+Example of basic function
+```bash
+function hello {
+    echo "hello there"
+}
+
+# calling funcion
+hello
+```
+
+creating function with parameters
+```bash
+function create_file() {
+    file_name=$1
+    touch $filename
+    echo "file succesfully created"
+}
+```
+
