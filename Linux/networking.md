@@ -24,3 +24,9 @@ example range               fixed first 3 dots cannot change 192.168.0
 ifconfig
 ```
 gives lots of data about current network
+
+Showing active connections on machine
+```bash
+netstat
+```
+
