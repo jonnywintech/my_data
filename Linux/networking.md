@@ -59,7 +59,7 @@ On most server by default it is running ssh.
 And SSH server is listening on `PORT 22`.
 ## SSH
 
-ssh - secure shell
+#ssh - secure shell
 
 2 ways of authentication
 
