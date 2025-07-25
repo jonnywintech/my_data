@@ -9,7 +9,7 @@ nano ~/.profile
 
 at the end of file add folowing
 ```bash
-export PATH=$PATH:/home/youruser/chromium/chrome-linux
+export PATH=$PATH:/home1/chromium/chrome-linux
 ```
 replace after `$PATH:` with your route to app it may differ
 
