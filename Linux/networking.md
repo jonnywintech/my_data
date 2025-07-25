@@ -53,6 +53,10 @@ Checking for active connection and target machine availability
 ping google.com
 ```
 
+## Firewall
+
+On most server by default it is running ssh.
+And SSH server is listening on `PORT 22`.
 ## SSH
 
 ssh - secure shell
@@ -65,14 +69,7 @@ ssh - secure shell
 Fist case is simple one and there is no need explaining.
 Second one when it is using private key and public key. 
 Public key is shared on Server to accept client public key, and Private key is on client machine.
-First Public key is used to allow client connection to server and then it run Private key which is stored on machine.
-
-
-## Firewall
-
-On most server by default it is running ssh.
-And SSH server is listening on `PORT 22`.
-
+First Public key is used to allow client connection to server and then it run Private key which is stored on client machine.
 
 ## Generating ssh key
 
