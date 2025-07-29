@@ -111,7 +111,18 @@ base command after public key is added
 ```bash
 ssh root@server_ip
 ```
+adding ssh key manually to server if key already exists
+```bash
+nano ~/.ssh/authorized_keys
+```
+here is located all keys on machine
 
+display key on local machine
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+copy it and paste on editor
+save and exit
 
 
 
