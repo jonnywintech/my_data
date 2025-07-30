@@ -47,8 +47,9 @@ sudo passwd <usernamee
 
 switch user
 ```bash
-su -
+su - <username>
 ```
+if left blank it will switch to root user
 
 adding group
 ```bash
