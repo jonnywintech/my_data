@@ -22,7 +22,7 @@ for example set hashcode of object to be equal to name so it could compare it
 
 ```dart
 @overide
-bool operator = (covariant Cat other) => other.name == name;
+bool operator = (covariant Cat other) => other.name == name
 
 @overide
 int get hashCode = name.hashCode;
