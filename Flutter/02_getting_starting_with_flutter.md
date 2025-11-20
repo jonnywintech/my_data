@@ -31,3 +31,6 @@ flutter pub remove {dependency}
 
 important keywords docs
 https://dart.dev/language/keywords
+
+data types in dart
+https://dart.dev/language/built-in-types
