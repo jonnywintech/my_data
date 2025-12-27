@@ -16,7 +16,7 @@ print(arr);
 ```dart
 @overide
 ```
-`@overide` is special keyword that let you overide default class function / values thar are defined by inheretance
+`@overide` is special keyword it is used for LINTER ( checking typos and stuff before it is build it give warnings  etc ).
 
 for example set hashcode of object to be equal to name so it could compare it 
 
