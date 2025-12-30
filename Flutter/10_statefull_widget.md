@@ -15,6 +15,9 @@ class DiceRoller extends StatefulWidget {
 }
 
 class _DiceRollerState extends State<DiceRoller> {
+// _DiceRollerState the _ mean it is private and only accesiable trought this class state
+
+// here we define rest of state - logic 
   int imageNumber = 2;
 
   void rollDice() {
