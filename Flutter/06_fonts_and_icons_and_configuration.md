@@ -48,3 +48,12 @@ inside pubspec.yml find `assets` and uncomment and add folder
 ```
 
 then run flutter pub get
+
+# Linter configuration
+
+inside `analysis_options.yaml`
+```dart
+formatter:
+  trailing_commas: preserve
+```
+
