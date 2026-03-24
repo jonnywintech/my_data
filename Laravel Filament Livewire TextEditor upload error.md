@@ -1,7 +1,7 @@
 U slucaju da payload sadrzi elemente rich editora.
 tipa script xml base64 slike itd , tada je payload veci od 300kb potrebno je iskljuciti CDN na serveru i dodati sledece u .htaccess
 
-```.htaccess
+```C
 <IfModule mod_security.c>
 
     SecRuleEngine Off
@@ -17,7 +17,7 @@ postaviti na vrh .htaccess fajla u public folderu
 
 primer celog .htaccessa
 
-```.htaccess
+```c
 <FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
 
 SetHandler application/x-lsphp83
