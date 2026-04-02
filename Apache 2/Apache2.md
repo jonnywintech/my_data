@@ -91,7 +91,7 @@ Ako i dalje neradi dodati u .htaccess fajlu sledece
 ```
 
 
-U slucaju da se binduje na druge portove osim 80 i 443
+### U slucaju da se binduje na druge portove osim 80 i 443
 
 potrebno je izmeniti konfiguracion fajl u apache2 i dodati portove na koje se slusa
 
