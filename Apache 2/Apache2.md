@@ -95,4 +95,6 @@ U slucaju da se binduje na druge portove osim 80 i 443
 
 potrebno je izmeniti konfiguracion fajl u apache2 i dodati portove na koje se slusa
 
+```bash
  sudo nano /etc/apache2/ports.conf
+```
