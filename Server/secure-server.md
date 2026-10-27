@@ -100,3 +100,31 @@ sudo apt install unattended-upgrades
 ```
 
 `restartuj` posle updejta
+
+FAIL 2 BAN
+
+Blokira previse zahteva sa iste ip adrese
+Instalacija
+```bash
+sudo apt install fail2ban
+```
+
+listanje blokiranih ip adresa
+```bash
+sudo fail2ban-client status sshd
+```
+
+nedeljna provera ko je pokusao da se loguje na server
+
+```bash 
+sudo fail2ban-client status sshd | tail -3
+```
+
+ovo ce izlistati  ip adresse 
+onda
+```bash
+last -5
+```
+ovo ce dati zadnjih 5 ip adresa
+
+ako su ip adrese iste kao tvoje, onda je sve ok
